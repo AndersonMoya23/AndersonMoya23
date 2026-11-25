@@ -11,7 +11,7 @@ El portafolio vive en la carpeta `docs/`. No hay dependencias ni pasos de compil
 Comprobación rápida en la raíz del repositorio:
 
 ```bash
-git grep -n -i -E "gmail|cédula|40202788937|9KJM-H6GA-SWRB-HFSJ" -- docs/
+git grep -n -i -E "[[:digit:]]{9,}|@[a-z]+\.(com|net|org)|c[oé]dula|verificaci[oó]n" -- docs/
 ```
 
 El comando no debe devolver resultados.
