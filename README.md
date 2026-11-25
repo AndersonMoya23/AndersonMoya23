@@ -1,96 +1,45 @@
 # Anderson Moya
 
-### Software Development Student | Aspiring Software Engineer
+Desarrollador en formación enfocado en desarrollo web, backend y bases de datos. Me interesa construir soluciones prácticas y entender el software desde sus fundamentos.
 
-I'm a technology enthusiast focused on software development, programming, databases, and electronics. I enjoy designing solutions, building practical projects, exploring new technologies, and continuously improving my technical skills.
+## Perfil
 
-## About Me
+- Formación técnica: **Desarrollo y Administración de Aplicaciones Informáticas**, Politécnico Industrial Don Bosco.
+- Intereses: desarrollo web, backend, bases de datos, C#, .NET, JavaScript, SQL, Arduino y tecnología.
+- Formación complementaria: TalentoDigital.do y cursos de ciberseguridad, nube e inteligencia artificial.
+- Enfoque actual: fortalecer el desarrollo web y backend mediante proyectos prácticos.
 
-- Technical student specializing in Software Development and Application Administration.
-- Interested in backend development, web technologies, software architecture, and database management.
-- Experience building academic software projects and Arduino-based systems.
-- Passionate about problem-solving, continuous learning, and technology.
-- Currently improving my programming skills and English proficiency.
+## Stack y herramientas
 
-## Technical Skills
+| Área | Tecnologías |
+| --- | --- |
+| Lenguajes y web | C#, JavaScript, SQL, HTML5, CSS3 |
+| Backend y datos | .NET, SQL Server, SQLite, modelado relacional, CRUD |
+| Herramientas | Git, GitHub, Visual Studio, VS Code, Linux, Postman |
+| Electrónica | Arduino, sensores, comunicación serial |
 
-### Programming Languages
-- C#
-- JavaScript
-- HTML5
-- CSS3
-- SQL
+> Estas tecnologías corresponden a proyectos académicos y de aprendizaje. Sigo ampliando su dominio con práctica constante.
 
-### Frontend Development
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Web Design
-- DOM Manipulation
+## Proyectos
 
-### Backend Development
-- C#
-- .NET
-- REST API fundamentals
-- Server-side development
+- **OfficeAlert** — sistema de alerta con Arduino, sensor ultrasónico, pantalla LCD, LEDs y buzzer.
+- **Sistema de monitoreo ambiental** — proyecto académico con aplicación web y servidor para supervisar condiciones ambientales.
+- **StudyHub** — estación de estudio con Arduino Mega y LCD 1602 I2C (en desarrollo).
+- **ViceCity Files AI** — herramienta local para organizar y revisar material digital (en desarrollo).
+- **Retos de programación** — ejercicios de lógica de la comunidad MoureDev: [roadmap-retos-programacion](https://github.com/AndersonMoya23/roadmap-retos-programacion) y [retos-programacion-2023](https://github.com/AndersonMoya23/retos-programacion-2023).
 
-### Databases
-- Microsoft SQL Server
-- MySQL
-- PostgreSQL
-- SQLite
-- Relational Database Design
-- SQL Queries
-- CRUD Operations
-- Database Modeling
+Los proyectos sin enlace son trabajos locales o académicos; no se ha publicado su código todavía.
 
-### Development Tools
-- Visual Studio
-- Visual Studio Code
-- Git
-- GitHub
-- GitHub Desktop
-- Postman
-- Docker
-- Linux
-- Windows
+## Formación y certificaciones
 
-### Electronics & Embedded Systems
-- Arduino
-- Arduino IDE
-- Sensors and Electronic Components
-- Embedded Systems Fundamentals
-- Serial Communication
+Los cursos verificados de ciberseguridad, nube e inteligencia artificial están documentados en el portafolio. Los archivos originales y los datos personales de los certificados no se incluyen en este repositorio.
 
-## Featured Projects
+## Portafolio y contacto
 
-### OfficeAlert
-An Arduino-based alert system using an ultrasonic sensor, LCD display, LEDs, and buzzer to communicate environmental proximity conditions.
+El portafolio se publica desde la carpeta `docs/` mediante GitHub Pages. La guía de publicación está en [docs/DEPLOY.md](docs/DEPLOY.md).
 
-### Environmental Monitoring System
-An academic project involving a web application and server designed to monitor environmental conditions in an intensive care setting.
-
-### Programming Challenges
-A collection of programming exercises and problem-solving practice.
-
-## Currently Learning
-
-- Advanced C# and .NET development
-- Backend architecture and API development
-- Database design and optimization
-- JavaScript and modern web development
-- Software engineering principles
-- Linux and development environments
-- English for professional communication
-
-## Development Philosophy
-
-I believe in learning through practice, building meaningful projects, understanding the fundamentals, and continuously improving through experimentation and problem-solving.
-
-## Connect With Me
-
-- GitHub: https://github.com/AndersonMoya23
+La dirección de correo y los datos de contacto se publicarán únicamente cuando así lo autorice. Mientras tanto, puedes conectar desde [GitHub](https://github.com/AndersonMoya23).
 
 ---
 
-**Building knowledge. Developing solutions. Improving every day.**
+Aprendiendo, construyendo y mejorando cada día.
