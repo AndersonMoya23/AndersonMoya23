@@ -1,33 +1,42 @@
-# Anderson Moya — Professional Portfolio
+# Portafolio de Anderson Moya
 
-Personal portfolio built with semantic HTML, CSS and vanilla JavaScript.
+Sitio estático con HTML semántico, CSS y JavaScript sin dependencias. No requiere build ni instalación.
 
-## Preview locally
+## Vista previa local
 
-Open `index.html` in a browser, or run a local static server from this directory:
+Abre `index.html` en un navegador o sirve esta carpeta:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then visit http://localhost:8000.
+Luego visita http://localhost:8000.
 
-## Deploy with GitHub Pages
+## Publicación
 
-1. Open the repository settings.
-2. Go to **Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch `portfolio-v1` and folder `/docs`.
-5. Save and wait for the Pages deployment to finish.
+La guía completa está en [DEPLOY.md](DEPLOY.md). Resumen:
 
-The expected site address is https://andersonmoya23.github.io/AndersonMoya23/ once GitHub Pages is enabled.
+1. Entra a **Settings → Pages** del repositorio.
+2. En **Build and deployment**, elige **Deploy from a branch**.
+3. Selecciona la rama aprobada y la carpeta `/docs`.
+4. Guarda y espera a que GitHub Pages termine el despliegue.
 
-## Customize
+La dirección esperada es https://andersonmoya23.github.io/AndersonMoya23/.
 
-- Update project descriptions and links in `index.html`.
-- Add verified course names and certificate links in the education section.
-- Add video samples only after creating and reviewing them.
-- Confirm the contact email before publishing it.
-- Change colors and layout in `styles.css`.
+## Estructura
 
-No build tools or package installation are required.
+- `index.html` — contenido y secciones del portafolio.
+- `styles.css` — tema claro/oscuro y diseño responsive.
+- `script.js` — cambio de tema, menú móvil y año del footer.
+- `certificados/` — carpeta reservada para documentos públicos aprobados.
+- `DEPLOY.md` — guía de publicación.
+
+## Certificados
+
+La sección de certificaciones muestra solo nombres, emisores y fechas verificados en los PDF originales. Los archivos originales, las copias y los enlaces de verificación **no** se publican sin aprobación explícita. Consulta `certificados/README.md`.
+
+## Mantenimiento
+
+- Los proyectos sin repositorio público no llevan enlace individual; se usa el enlace general a los repositorios.
+- El correo personal no se publica en el sitio.
+- Para añadir un certificado, coloca el PDF aprobado en `certificados/` y actualiza la sección correspondiente en `index.html`.
