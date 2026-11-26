@@ -1,0 +1,4021 @@
+{
+  "url": "http://127.0.0.1:8795/",
+  "generatedAt": "2026-11-26T23:10:42.294Z",
+  "scenarios": [
+    {
+      "name": "desktop-dark",
+      "viewport": "1440x900",
+      "initial": {
+        "scrollY": 0,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 942,
+          "bottom": 1766,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 2509,
+          "bottom": 2625,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 3333,
+          "bottom": 3444,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 5046,
+          "bottom": 5149,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 8695,
+          "bottom": 8798,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 9984,
+          "bottom": 10195,
+          "visible": false
+        }
+      },
+      "errors": [],
+      "failed": [],
+      "performance": {
+        "frames": 133,
+        "duration": 2211,
+        "fps": 60,
+        "longFrames": 0
+      }
+    },
+    {
+      "name": "desktop-light",
+      "viewport": "1440x900",
+      "initial": {
+        "scrollY": 0,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "light",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 942,
+          "bottom": 1766,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 2509,
+          "bottom": 2625,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 3333,
+          "bottom": 3444,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 5046,
+          "bottom": 5149,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 8695,
+          "bottom": 8798,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 9984,
+          "bottom": 10195,
+          "visible": false
+        }
+      },
+      "errors": []
+    },
+    {
+      "name": "tablet-1024",
+      "viewport": "1024x768",
+      "initial": {
+        "scrollY": 0,
+        "docHeight": 10308,
+        "scrollWidth": 1024,
+        "innerWidth": 1024,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 804,
+          "bottom": 1496,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 2063,
+          "bottom": 2145,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 2975,
+          "bottom": 3056,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 4285,
+          "bottom": 4358,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 8602,
+          "bottom": 8676,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 9879,
+          "bottom": 10029,
+          "visible": false
+        }
+      },
+      "errors": []
+    },
+    {
+      "name": "tablet-768",
+      "viewport": "768x1024",
+      "initial": {
+        "scrollY": 0,
+        "docHeight": 10907,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 1072,
+          "bottom": 2020,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 2360,
+          "bottom": 2421,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 3235,
+          "bottom": 3297,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 4946,
+          "bottom": 5001,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 9115,
+          "bottom": 9170,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 10406,
+          "bottom": 10461,
+          "visible": false
+        }
+      },
+      "errors": []
+    },
+    {
+      "name": "mobile-390",
+      "viewport": "390x844",
+      "initial": {
+        "scrollY": 0,
+        "docHeight": 10671,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 1191,
+          "bottom": 1239,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 2290,
+          "bottom": 2334,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 3761,
+          "bottom": 3805,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 8614,
+          "bottom": 8658,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 10060,
+          "bottom": 10108,
+          "visible": false
+        }
+      },
+      "errors": []
+    },
+    {
+      "name": "mobile-360",
+      "viewport": "360x740",
+      "initial": {
+        "scrollY": 0,
+        "docHeight": 10921,
+        "scrollWidth": 360,
+        "innerWidth": 360,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 1191,
+          "bottom": 1238,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 2312,
+          "bottom": 2355,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 3805,
+          "bottom": 3848,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 8737,
+          "bottom": 8781,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 10250,
+          "bottom": 10345,
+          "visible": false
+        }
+      },
+      "errors": []
+    },
+    {
+      "name": "reduced-motion",
+      "viewport": "1440x900",
+      "initial": {
+        "scrollY": 0,
+        "docHeight": 8634,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": false,
+        "b12": false,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 1251,
+          "bottom": 1368,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 2214,
+          "bottom": 2317,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 3203,
+          "bottom": 3306,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 6852,
+          "bottom": 6954,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 8066,
+          "bottom": 8299,
+          "visible": false
+        }
+      },
+      "errors": []
+    }
+  ],
+  "checks": [
+    {
+      "name": "ESCRITORIO: seis secciones presentes",
+      "ok": true,
+      "detail": "inicio,sobre-mi,tecnologias,proyectos,formacion,contacto"
+    },
+    {
+      "name": "ESCRITORIO: seis casos de estudio",
+      "ok": true,
+      "detail": "6 casos"
+    },
+    {
+      "name": "ESCRITORIO: sin overflow horizontal",
+      "ok": true,
+      "detail": "1440/1440"
+    },
+    {
+      "name": "ESCRITORIO: sistema B.12 activo",
+      "ok": true
+    },
+    {
+      "name": "ESCRITORIO: nombre protagonista legible",
+      "ok": true,
+      "detail": "Anderson Moya."
+    },
+    {
+      "name": "ESCRITORIO: enlaces con href real",
+      "ok": true,
+      "detail": "7 enlaces"
+    },
+    {
+      "name": "SCROLL: rueda no interceptada",
+      "ok": true,
+      "detail": "defaultPrevented=false"
+    },
+    {
+      "name": "RENDIMIENTO: recorrido fluido",
+      "ok": true,
+      "detail": "60 fps, 0 frames largos"
+    },
+    {
+      "name": "CONSOLA: sin errores",
+      "ok": true,
+      "detail": "0 errores"
+    },
+    {
+      "name": "RECURSOS: sin fallos locales",
+      "ok": true,
+      "detail": "0 fallos locales"
+    },
+    {
+      "name": "TEMA CLARO: aplicado",
+      "ok": true,
+      "detail": "light"
+    },
+    {
+      "name": "TEMA CLARO: sin overflow",
+      "ok": true,
+      "detail": "1440/1440"
+    },
+    {
+      "name": "TEMA CLARO: consola limpia",
+      "ok": true,
+      "detail": "0 errores"
+    },
+    {
+      "name": "tablet-1024: sin overflow horizontal",
+      "ok": true,
+      "detail": "1024/1024"
+    },
+    {
+      "name": "tablet-1024: casos visibles en flujo vertical",
+      "ok": true,
+      "detail": "6"
+    },
+    {
+      "name": "tablet-1024: consola limpia",
+      "ok": true,
+      "detail": "0 errores"
+    },
+    {
+      "name": "tablet-768: sin overflow horizontal",
+      "ok": true,
+      "detail": "768/768"
+    },
+    {
+      "name": "tablet-768: casos visibles en flujo vertical",
+      "ok": true,
+      "detail": "6"
+    },
+    {
+      "name": "tablet-768: consola limpia",
+      "ok": true,
+      "detail": "0 errores"
+    },
+    {
+      "name": "mobile-390: sin overflow horizontal",
+      "ok": true,
+      "detail": "390/390"
+    },
+    {
+      "name": "mobile-390: casos visibles en flujo vertical",
+      "ok": true,
+      "detail": "6"
+    },
+    {
+      "name": "mobile-390: consola limpia",
+      "ok": true,
+      "detail": "0 errores"
+    },
+    {
+      "name": "mobile-360: sin overflow horizontal",
+      "ok": true,
+      "detail": "360/360"
+    },
+    {
+      "name": "mobile-360: casos visibles en flujo vertical",
+      "ok": true,
+      "detail": "6"
+    },
+    {
+      "name": "mobile-360: consola limpia",
+      "ok": true,
+      "detail": "0 errores"
+    },
+    {
+      "name": "REDUCED MOTION: sistema inmersivo desactivado",
+      "ok": true
+    },
+    {
+      "name": "REDUCED MOTION: todo el contenido visible",
+      "ok": true,
+      "detail": "5 bloques"
+    },
+    {
+      "name": "REDUCED MOTION: handoff oculto",
+      "ok": true
+    },
+    {
+      "name": "REDUCED MOTION: enlaces de contacto utilizables",
+      "ok": true
+    },
+    {
+      "name": "REDUCED MOTION: consola limpia",
+      "ok": true,
+      "detail": "0 errores"
+    },
+    {
+      "name": "TECLADO: primer foco es skip link",
+      "ok": true,
+      "detail": "skip-link"
+    },
+    {
+      "name": "TECLADO: flechas recorren casos",
+      "ok": true,
+      "detail": "03 / 06→04 / 06, caso 4 top=59, y 6271"
+    },
+    {
+      "name": "TECLADO: menú móvil abre y Escape cierra",
+      "ok": true,
+      "detail": "true/true→false/true"
+    },
+    {
+      "name": "SIN JS: hero y Sobre mí visibles",
+      "ok": true
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "b12-1440-dark-01-hero",
+      "file": "verificacion-b12/b12-1440-dark-01-hero.png",
+      "state": {
+        "scrollY": 0,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 942,
+          "bottom": 1766,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 2509,
+          "bottom": 2625,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 3333,
+          "bottom": 3444,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 5046,
+          "bottom": 5149,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 8695,
+          "bottom": 8798,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 9984,
+          "bottom": 10195,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-dark-02-hero-camera",
+      "file": "verificacion-b12/b12-1440-dark-02-hero-camera.png",
+      "state": {
+        "scrollY": 520,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0.0031,
+          "top": 939,
+          "bottom": 1763,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 1989,
+          "bottom": 2105,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 2813,
+          "bottom": 2924,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 4526,
+          "bottom": 4629,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 8175,
+          "bottom": 8278,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 9464,
+          "bottom": 9675,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-dark-03-hero-transform",
+      "file": "verificacion-b12/b12-1440-dark-03-hero-transform.png",
+      "state": {
+        "scrollY": 1050,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0.5735,
+          "top": 445,
+          "bottom": 1269,
+          "visible": true
+        },
+        "about": {
+          "opacity": 1,
+          "top": 1459,
+          "bottom": 1575,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 2283,
+          "bottom": 2394,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 3996,
+          "bottom": 4099,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 7645,
+          "bottom": 7748,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 8934,
+          "bottom": 9145,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-dark-04-handoff",
+      "file": "verificacion-b12/b12-1440-dark-04-handoff.png",
+      "state": {
+        "scrollY": 1320,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0.8642,
+          "top": 194,
+          "bottom": 1018,
+          "visible": true
+        },
+        "about": {
+          "opacity": 1,
+          "top": 1130,
+          "bottom": 1246,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 2013,
+          "bottom": 2124,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 3726,
+          "bottom": 3829,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 7375,
+          "bottom": 7478,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 8664,
+          "bottom": 8875,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-dark-05-about",
+      "file": "verificacion-b12/b12-1440-dark-05-about.png",
+      "state": {
+        "scrollY": 2301,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -708,
+          "bottom": 116,
+          "visible": true
+        },
+        "about": {
+          "opacity": 1,
+          "top": 36,
+          "bottom": 153,
+          "visible": true
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 1032,
+          "bottom": 1143,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 2745,
+          "bottom": 2848,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 6394,
+          "bottom": 6497,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 7683,
+          "bottom": 7894,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-dark-06-tech",
+      "file": "verificacion-b12/b12-1440-dark-06-tech.png",
+      "state": {
+        "scrollY": 3402,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -1809,
+          "bottom": -985,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -1065,
+          "bottom": -948,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 145,
+          "bottom": 249,
+          "visible": true
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 1644,
+          "bottom": 1747,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 5293,
+          "bottom": 5396,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 6582,
+          "bottom": 6793,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-dark-07-project-01",
+      "file": "verificacion-b12/b12-1440-dark-07-project-01.png",
+      "state": {
+        "scrollY": 5372,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -3779,
+          "bottom": -2955,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -3035,
+          "bottom": -2918,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -1355,
+          "bottom": -1244,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -326,
+          "bottom": -223,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 3323,
+          "bottom": 3426,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 4612,
+          "bottom": 4823,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-dark-08-projects-sequence",
+      "file": "verificacion-b12/b12-1440-dark-08-projects-sequence.png",
+      "state": {
+        "scrollY": 7072,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -5479,
+          "bottom": -4655,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -4735,
+          "bottom": -4618,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -3055,
+          "bottom": -2944,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -2026,
+          "bottom": -1923,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 1623,
+          "bottom": 1726,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 2912,
+          "bottom": 3123,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-dark-09-formation",
+      "file": "verificacion-b12/b12-1440-dark-09-formation.png",
+      "state": {
+        "scrollY": 8741,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -7148,
+          "bottom": -6324,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -6404,
+          "bottom": -6287,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -4724,
+          "bottom": -4613,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -3695,
+          "bottom": -3592,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": -46,
+          "bottom": 57,
+          "visible": true
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 1243,
+          "bottom": 1454,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-dark-10-contact",
+      "file": "verificacion-b12/b12-1440-dark-10-contact.png",
+      "state": {
+        "scrollY": 9577,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -7984,
+          "bottom": -7160,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -7240,
+          "bottom": -7123,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -5560,
+          "bottom": -5449,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -4531,
+          "bottom": -4428,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": -882,
+          "bottom": -779,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 332,
+          "bottom": 565,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "b12-1440-light-01-hero",
+      "file": "verificacion-b12/b12-1440-light-01-hero.png",
+      "state": {
+        "scrollY": 0,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "light",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 942,
+          "bottom": 1766,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 2509,
+          "bottom": 2625,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 3333,
+          "bottom": 3444,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 5046,
+          "bottom": 5149,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 8695,
+          "bottom": 8798,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 9984,
+          "bottom": 10195,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-light-02-about",
+      "file": "verificacion-b12/b12-1440-light-02-about.png",
+      "state": {
+        "scrollY": 2301,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "light",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -708,
+          "bottom": 116,
+          "visible": true
+        },
+        "about": {
+          "opacity": 1,
+          "top": 36,
+          "bottom": 153,
+          "visible": true
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 1032,
+          "bottom": 1143,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 2745,
+          "bottom": 2848,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 6394,
+          "bottom": 6497,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 7683,
+          "bottom": 7894,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-light-03-project",
+      "file": "verificacion-b12/b12-1440-light-03-project.png",
+      "state": {
+        "scrollY": 5372,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "light",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -3779,
+          "bottom": -2955,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -3035,
+          "bottom": -2918,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -1355,
+          "bottom": -1244,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -326,
+          "bottom": -223,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 3323,
+          "bottom": 3426,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 4612,
+          "bottom": 4823,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-light-04-contact",
+      "file": "verificacion-b12/b12-1440-light-04-contact.png",
+      "state": {
+        "scrollY": 9577,
+        "docHeight": 10477,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": true,
+        "b12": true,
+        "theme": "light",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -7984,
+          "bottom": -7160,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -7240,
+          "bottom": -7123,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -5560,
+          "bottom": -5449,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -4531,
+          "bottom": -4428,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": -882,
+          "bottom": -779,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 332,
+          "bottom": 565,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "b12-tablet-1024-01-hero",
+      "file": "verificacion-b12/b12-tablet-1024-01-hero.png",
+      "state": {
+        "scrollY": 0,
+        "docHeight": 10308,
+        "scrollWidth": 1024,
+        "innerWidth": 1024,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 804,
+          "bottom": 1496,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 2063,
+          "bottom": 2145,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 2975,
+          "bottom": 3056,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 4285,
+          "bottom": 4358,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 8602,
+          "bottom": 8676,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 9879,
+          "bottom": 10029,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-tablet-1024-02-about",
+      "file": "verificacion-b12/b12-tablet-1024-02-about.png",
+      "state": {
+        "scrollY": 1678,
+        "docHeight": 10308,
+        "scrollWidth": 1024,
+        "innerWidth": 1024,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -450,
+          "bottom": 242,
+          "visible": true
+        },
+        "about": {
+          "opacity": 1,
+          "top": 212,
+          "bottom": 295,
+          "visible": true
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 1297,
+          "bottom": 1378,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 2607,
+          "bottom": 2680,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 6924,
+          "bottom": 6998,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 8201,
+          "bottom": 8351,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-tablet-1024-03-tech",
+      "file": "verificacion-b12/b12-tablet-1024-03-tech.png",
+      "state": {
+        "scrollY": 2906,
+        "docHeight": 10308,
+        "scrollWidth": 1024,
+        "innerWidth": 1024,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -1678,
+          "bottom": -986,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -1016,
+          "bottom": -933,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 139,
+          "bottom": 212,
+          "visible": true
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 1379,
+          "bottom": 1452,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 5696,
+          "bottom": 5770,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 6973,
+          "bottom": 7123,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-tablet-1024-04-project",
+      "file": "verificacion-b12/b12-tablet-1024-04-project.png",
+      "state": {
+        "scrollY": 4311,
+        "docHeight": 10308,
+        "scrollWidth": 1024,
+        "innerWidth": 1024,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -3083,
+          "bottom": -2391,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -2421,
+          "bottom": -2338,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -1283,
+          "bottom": -1201,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -26,
+          "bottom": 47,
+          "visible": true
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 4291,
+          "bottom": 4365,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 5568,
+          "bottom": 5718,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-tablet-1024-05-contact",
+      "file": "verificacion-b12/b12-tablet-1024-05-contact.png",
+      "state": {
+        "scrollY": 9540,
+        "docHeight": 10308,
+        "scrollWidth": 1024,
+        "innerWidth": 1024,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -8312,
+          "bottom": -7620,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -7650,
+          "bottom": -7567,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -6512,
+          "bottom": -6430,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -5255,
+          "bottom": -5182,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": -938,
+          "bottom": -864,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 268,
+          "bottom": 433,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "b12-tablet-768-01-hero",
+      "file": "verificacion-b12/b12-tablet-768-01-hero.png",
+      "state": {
+        "scrollY": 0,
+        "docHeight": 10907,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 1072,
+          "bottom": 2020,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 2360,
+          "bottom": 2421,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 3235,
+          "bottom": 3297,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 4946,
+          "bottom": 5001,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 9115,
+          "bottom": 9170,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 10406,
+          "bottom": 10461,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-tablet-768-02-about",
+      "file": "verificacion-b12/b12-tablet-768-02-about.png",
+      "state": {
+        "scrollY": 2149,
+        "docHeight": 10907,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -562,
+          "bottom": 386,
+          "visible": true
+        },
+        "about": {
+          "opacity": 1,
+          "top": 38,
+          "bottom": 100,
+          "visible": true
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 1086,
+          "bottom": 1148,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 2797,
+          "bottom": 2852,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 6966,
+          "bottom": 7021,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 8257,
+          "bottom": 8312,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-tablet-768-03-tech",
+      "file": "verificacion-b12/b12-tablet-768-03-tech.png",
+      "state": {
+        "scrollY": 3167,
+        "docHeight": 10907,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -1580,
+          "bottom": -632,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -980,
+          "bottom": -918,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 140,
+          "bottom": 195,
+          "visible": true
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 1779,
+          "bottom": 1834,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 5948,
+          "bottom": 6003,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 7239,
+          "bottom": 7294,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-tablet-768-04-project",
+      "file": "verificacion-b12/b12-tablet-768-04-project.png",
+      "state": {
+        "scrollY": 5008,
+        "docHeight": 10907,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -3421,
+          "bottom": -2473,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -2821,
+          "bottom": -2759,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -1227,
+          "bottom": -1165,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -62,
+          "bottom": -7,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 4107,
+          "bottom": 4162,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 5398,
+          "bottom": 5453,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-tablet-768-05-contact",
+      "file": "verificacion-b12/b12-tablet-768-05-contact.png",
+      "state": {
+        "scrollY": 9883,
+        "docHeight": 10907,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 1,
+          "top": -8296,
+          "bottom": -7348,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -7696,
+          "bottom": -7634,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -6102,
+          "bottom": -6040,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -4937,
+          "bottom": -4882,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": -768,
+          "bottom": -713,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 450,
+          "bottom": 512,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "b12-mobile-390-01-hero",
+      "file": "verificacion-b12/b12-mobile-390-01-hero.png",
+      "state": {
+        "scrollY": 0,
+        "docHeight": 10671,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 1191,
+          "bottom": 1239,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 2290,
+          "bottom": 2334,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 3761,
+          "bottom": 3805,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 8614,
+          "bottom": 8658,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 10060,
+          "bottom": 10108,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-mobile-390-02-about",
+      "file": "verificacion-b12/b12-mobile-390-02-about.png",
+      "state": {
+        "scrollY": 1181,
+        "docHeight": 10671,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 10,
+          "bottom": 58,
+          "visible": true
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 1109,
+          "bottom": 1153,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 2580,
+          "bottom": 2624,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 7433,
+          "bottom": 7477,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 8879,
+          "bottom": 8927,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-mobile-390-03-tech",
+      "file": "verificacion-b12/b12-mobile-390-03-tech.png",
+      "state": {
+        "scrollY": 2280,
+        "docHeight": 10671,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -1089,
+          "bottom": -1041,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 10,
+          "bottom": 54,
+          "visible": true
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 1481,
+          "bottom": 1525,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 6334,
+          "bottom": 6378,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 7780,
+          "bottom": 7828,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-mobile-390-04-project",
+      "file": "verificacion-b12/b12-mobile-390-04-project.png",
+      "state": {
+        "scrollY": 3851,
+        "docHeight": 10671,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -2660,
+          "bottom": -2612,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -1561,
+          "bottom": -1517,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -90,
+          "bottom": -46,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 4763,
+          "bottom": 4807,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 6209,
+          "bottom": 6257,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-mobile-390-05-contact",
+      "file": "verificacion-b12/b12-mobile-390-05-contact.png",
+      "state": {
+        "scrollY": 9827,
+        "docHeight": 10671,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -8636,
+          "bottom": -8588,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -7537,
+          "bottom": -7493,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -6066,
+          "bottom": -6022,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": -1213,
+          "bottom": -1169,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 233,
+          "bottom": 281,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "b12-mobile-360-01-hero",
+      "file": "verificacion-b12/b12-mobile-360-01-hero.png",
+      "state": {
+        "scrollY": 0,
+        "docHeight": 10921,
+        "scrollWidth": 360,
+        "innerWidth": 360,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 1191,
+          "bottom": 1238,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 2312,
+          "bottom": 2355,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 3805,
+          "bottom": 3848,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 8737,
+          "bottom": 8781,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 10250,
+          "bottom": 10345,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-mobile-360-02-about",
+      "file": "verificacion-b12/b12-mobile-360-02-about.png",
+      "state": {
+        "scrollY": 1181,
+        "docHeight": 10921,
+        "scrollWidth": 360,
+        "innerWidth": 360,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 10,
+          "bottom": 57,
+          "visible": true
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 1131,
+          "bottom": 1174,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 2624,
+          "bottom": 2667,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 7556,
+          "bottom": 7600,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 9069,
+          "bottom": 9164,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-mobile-360-03-tech",
+      "file": "verificacion-b12/b12-mobile-360-03-tech.png",
+      "state": {
+        "scrollY": 2302,
+        "docHeight": 10921,
+        "scrollWidth": 360,
+        "innerWidth": 360,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -1111,
+          "bottom": -1064,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 10,
+          "bottom": 53,
+          "visible": true
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 1503,
+          "bottom": 1546,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 6435,
+          "bottom": 6479,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 7948,
+          "bottom": 8043,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-mobile-360-04-project",
+      "file": "verificacion-b12/b12-mobile-360-04-project.png",
+      "state": {
+        "scrollY": 3895,
+        "docHeight": 10921,
+        "scrollWidth": 360,
+        "innerWidth": 360,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -2704,
+          "bottom": -2657,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -1583,
+          "bottom": -1540,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -90,
+          "bottom": -47,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 4842,
+          "bottom": 4886,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 6355,
+          "bottom": 6450,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-mobile-360-05-contact",
+      "file": "verificacion-b12/b12-mobile-360-05-contact.png",
+      "state": {
+        "scrollY": 10181,
+        "docHeight": 10921,
+        "scrollWidth": 360,
+        "innerWidth": 360,
+        "immersive": true,
+        "b12": true,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -8990,
+          "bottom": -8943,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -7869,
+          "bottom": -7826,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -6376,
+          "bottom": -6333,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": -1444,
+          "bottom": -1400,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 69,
+          "bottom": 164,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "b12-1440-reduced-01-hero",
+      "file": "verificacion-b12/b12-1440-reduced-01-hero.png",
+      "state": {
+        "scrollY": 0,
+        "docHeight": 8634,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": false,
+        "b12": false,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": 1251,
+          "bottom": 1368,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": 2214,
+          "bottom": 2317,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": 3203,
+          "bottom": 3306,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": 6852,
+          "bottom": 6954,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 8066,
+          "bottom": 8299,
+          "visible": false
+        }
+      }
+    },
+    {
+      "name": "b12-1440-reduced-02-contact",
+      "file": "verificacion-b12/b12-1440-reduced-02-contact.png",
+      "state": {
+        "scrollY": 7734,
+        "docHeight": 8634,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "immersive": false,
+        "b12": false,
+        "theme": "dark",
+        "heroTitle": "Anderson Moya.",
+        "cases": 6,
+        "sections": [
+          "inicio",
+          "sobre-mi",
+          "tecnologias",
+          "proyectos",
+          "formacion",
+          "contacto"
+        ],
+        "links": [
+          {
+            "text": "Ver proyectos ↗",
+            "href": "#proyectos"
+          },
+          {
+            "text": "GitHub ↗",
+            "href": "https://github.com/AndersonMoya23"
+          },
+          {
+            "text": "Explorar repositorios ↗",
+            "href": "https://github.com/AndersonMoya23?tab=repositories"
+          },
+          {
+            "text": "Ver repositorio ↗",
+            "href": "https://github.com/AndersonMoya23/instante"
+          },
+          {
+            "text": "roadmap-retos-programacion ↗",
+            "href": "https://github.com/AndersonMoya23/roadmap-retos-programacion"
+          },
+          {
+            "text": "retos-programacion-2023 ↗",
+            "href": "https://github.com/AndersonMoya23/retos-programacion-2023"
+          },
+          {
+            "text": "GitHub↗",
+            "href": "https://github.com/AndersonMoya23"
+          }
+        ],
+        "handoff": {
+          "opacity": 0,
+          "top": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "about": {
+          "opacity": 1,
+          "top": -6483,
+          "bottom": -6366,
+          "visible": false
+        },
+        "tech": {
+          "opacity": 1,
+          "top": -5520,
+          "bottom": -5417,
+          "visible": false
+        },
+        "projects": {
+          "opacity": 1,
+          "top": -4531,
+          "bottom": -4428,
+          "visible": false
+        },
+        "formation": {
+          "opacity": 1,
+          "top": -882,
+          "bottom": -780,
+          "visible": false
+        },
+        "contact": {
+          "opacity": 1,
+          "top": 332,
+          "bottom": 565,
+          "visible": true
+        }
+      }
+    },
+    {
+      "name": "b12-1440-nojs-hero",
+      "file": "verificacion-b12/b12-1440-nojs-hero.png",
+      "state": null
+    }
+  ]
+}

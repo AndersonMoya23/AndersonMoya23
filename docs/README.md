@@ -12,23 +12,23 @@ python -m http.server 8000
 
 Luego visita http://localhost:8000. Usar un servidor local permite probar también el botón de copiar enlace.
 
-## Dirección visual B.11
+## Dirección visual B.12
 
 - Paleta definida: negro profundo `#080a08`, blanco cálido `#f4f2e9`, grises sofisticados y acento verde ácido `#b9ff3d`. El tema claro invierte la base a `#f2f0e8` y usa `#3f5f00` como acento. Sin glow, neon excesivo, glassmorphism ni degradados decorativos.
 - Tipografía editorial con tres registros: `Instrument Serif` para titulares esculturales, `DM Sans` para texto y `DM Mono` para datos, índices y etiquetas. Escalas fluidas y composiciones asimétricas en lugar de tarjetas repetidas.
-- Hero de nombre protagonista con campo tipográfico gigante en profundidad, marcos monocíclicos, cubos concéntricos, anillos, placas y tres módulos separados. La cámara, las capas y los módulos reaccionan de forma distinta al scroll y al puntero fino.
-- Barra global de progreso y Escena 01 que se reorganiza al desplazarse: el texto se retrae, el artefacto gana profundidad y la composición prepara la transición a Sobre mí.
+- Hero de nombre protagonista con `position: sticky` natural y una única timeline `scrubbed`: la cámara, los glifos, el artefacto 3D, el suelo en perspectiva, el campo tipográfico y los módulos se recomponen juntos con el scroll. No hay `pin` ni secuestro de rueda.
+- `.hero-handoff` es el último fotograma del hero y el primero de Sobre mí. Sobre mí se solapa con la escena anterior y se ensambla mientras entra, en vez de aparecer como un bloque independiente.
 - Sobre mí como extensión editorial: titular a gran escala, lead en serif, dos párrafos distribuidos y datos secundarios en un plano posterior.
-- Tecnologías como planos espaciales con `STACK` de fondo, profundidades distintas y hover/foco con elevación real.
-- Proyectos como casos de estudio: artefactos CSS originales (circuito, monitor, LCD y código) etiquetados como ilustraciones, nunca como capturas reales. Galería horizontal vinculada al scroll solo en desktop; en tablet y móvil el recorrido es vertical y natural.
-- Formación con línea y nodo progresivos; contacto como cierre narrativo con enlaces de gran formato y eco tipográfico.
-- Movimiento con GSAP y ScrollTrigger locales. `perspective`, `perspective-origin`, `preserve-3d`, `translateZ`, `rotateX/Y/Z` y escala se combinan en todos los sistemas; no se usa WebGL ni Three.js.
+- Tecnologías como un sistema que se asienta durante todo el tramo: regla de medida, plano `STACK` de fondo, tarjetas con desplazamiento en X/Y/Z y rotación, y panel sticky animado. Hover y foco elevan cada tarjeta sin ocultar contenido.
+- Proyectos como seis casos de estudio verticales, sin carrusel forzado: artefactos CSS originales (circuito, monitor, LCD, código y álbum) etiquetados como ilustraciones, nunca como capturas reales. Rail de progreso y enlaces a repositorios públicos verificados.
+- Formación con línea y nodo progresivos; contacto como cierre narrativo con aperture, enlaces de gran formato y eco tipográfico.
+- Movimiento con GSAP y ScrollTrigger locales. `perspective`, `perspective-origin`, `preserve-3d`, `translateZ`, `rotateX/Y/Z` y escala se combinan en todos los sistemas; no se usa WebGL ni Three.js. La rotación continua del artefacto la dirige el scroll, no un bucle CSS infinito.
 - Las animaciones de entrada usan `play none none reverse`: el contenido permanece visible al saltar de sección o al pasar de largo, y solo se oculta al retroceder por encima del inicio del trigger.
 - `prefers-reduced-motion` desactiva el sistema inmersivo y las transformaciones; si falta JavaScript o GSAP, el contenido sigue visible. Navegación con indicador activo, menú móvil accesible, foco visible y contraste AA en ambos temas.
 
-## Verificación B.11
+## Verificación B.12
 
-El informe `verificacion-b11/report.json` documenta 58 comprobaciones en Chromium 159.0.8154.6, todas superadas, con 52 capturas en `1440x900`, `1366x768`, `1024x768`, `768x1024`, `390x844` y `360x800`. Incluye scroll hacia adelante y atrás, temas claro/oscuro, Reduced Motion, menú móvil teclado/Escape, navegación de proyectos, ausencia de JavaScript, overflow, consola, recursos y contraste AA en ambos temas. Las capturas curadas y el informe están en `verificacion-b11/`.
+El informe está en `verificacion-b12/informe.md`, con `report.json` (34 comprobaciones superadas), `scroll-summary.json` y 37 capturas reales de Chromium en `1440x900`, `1024x768`, `768x1024`, `390x844` y `360x740`. El recorrido completo se midió ida y vuelta en 33 posiciones: el cambio mínimo entre fotogramas consecutivos fue 6,4 % y no hubo ningún tramo por debajo del 5 %. Incluye temas claro/oscuro, Reduced Motion, menú móvil con teclado/Escape, navegación de casos, ausencia de JavaScript, overflow, consola, recursos y 60 fps con rasterización GPU. La revisión estética final de las capturas sigue pendiente de una persona.
 
 ## Publicación
 
@@ -45,11 +45,12 @@ La dirección esperada es https://andersonmoya23.github.io/AndersonMoya23/.
 
 - `index.html` — contenido, metadatos SEO/OG y secciones del portafolio.
 - `styles.css` — sistema visual, tema claro/oscuro, CSS 3D y diseño responsive.
-- `script.js` — tema persistente, menú, navegación activa, reveal, cámara 3D narrativa GSAP/ScrollTrigger, galería y controles, parallax, copiar enlace y año del footer.
+- `script.js` — tema persistente, menú, navegación activa, reveal, cámara 3D narrativa GSAP/ScrollTrigger, secuencia vertical de casos, parallax, copiar enlace y año del footer.
 - `vendor/` — copias locales de GSAP y ScrollTrigger 3.15.1.
 - `certificados/` — carpeta reservada para documentos públicos aprobados.
 - `DEPLOY.md` — guía de publicación y comprobación de privacidad.
-- `verificacion-b11/` — capturas reales de Chromium por resolución, tema y estado de movimiento, además de `report.json`.
+- `verificacion-b11/` — evidencia de la iteración anterior (insuficiente para B.12).
+- `verificacion-b12/` — informe, capturas reales de Chromium por resolución/tema/movimiento, `report.json` y `scroll-summary.json`.
 
 ## Certificados
 
