@@ -1,6 +1,6 @@
 # Portafolio de Anderson Moya
 
-Sitio estático con HTML semántico, CSS y JavaScript vanilla. No requiere build, dependencias de ejecución ni claves de API.
+Sitio estático con HTML semántico, CSS y JavaScript vanilla. Usa GSAP 3.15.1 y ScrollTrigger 3.15.1 desde `vendor/`, sin CDN. No requiere build, claves de API ni servicios externos de ejecución.
 
 ## Vista previa local
 
@@ -16,8 +16,9 @@ Luego visita http://localhost:8000. Usar un servidor local permite probar tambi�
 
 - Identidad editorial oscura como experiencia principal, con tema claro opcional y persistente.
 - Tipografía protagonista: `Instrument Serif`, `DM Sans` y `DM Mono`, con fuentes del sistema como fallback.
-- Hero con escultura 3D construida en CSS 3D: sin WebGL, sin librerías y con fallback natural.
-- Movimiento 3D sutil respondiente al cursor solo en puntero fino; se desactiva con `prefers-reduced-motion`.
+- Hero con escultura 3D construida en CSS 3D: sin WebGL y con fallback natural.
+- Movimiento inmersivo con GSAP y ScrollTrigger servidos localmente; el parallax por cursor se reserva a puntero fino.
+- `prefers-reduced-motion` desactiva el sistema inmersivo, también si se activa con la página abierta; si falta JavaScript o GSAP, el contenido permanece visible.
 - Secciones: Inicio, Sobre mí, Tecnologías, Proyectos, Formación y Contacto.
 - Proyectos presentados como casos de estudio: problema, solución, tecnologías y estado real.
 - Navegación con indicador de sección activa, menú móvil accesible y cierre por enlace, Escape o clic exterior.
@@ -38,7 +39,8 @@ La dirección esperada es https://andersonmoya23.github.io/AndersonMoya23/.
 
 - `index.html` — contenido, metadatos SEO/OG y secciones del portafolio.
 - `styles.css` — sistema visual, tema claro/oscuro, CSS 3D y diseño responsive.
-- `script.js` — tema, menú, navegación activa, reveal, parallax 3D, copiar enlace y año del footer.
+- `script.js` — tema persistente, menú, navegación activa, reveal, sistema inmersivo GSAP/ScrollTrigger, galería y controles, parallax 3D, copiar enlace y año del footer.
+- `vendor/` — copias locales de GSAP y ScrollTrigger 3.15.1.
 - `certificados/` — carpeta reservada para documentos públicos aprobados.
 - `DEPLOY.md` — guía de publicación y comprobación de privacidad.
 
