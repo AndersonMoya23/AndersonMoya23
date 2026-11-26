@@ -9,7 +9,7 @@
 
   window.addEventListener("error", (event) => {
     if (event.filename && event.filename.indexOf("script.js") === -1) return;
-    root.classList.remove("js", "immersive", "b10");
+    root.classList.remove("js", "immersive", "b11");
     document.querySelectorAll(".reveal").forEach((item) => item.classList.add("is-visible"));
     console.error("Portafolio: error de ejecución; se activa el contenido visible.", event.error || event.message);
   });
@@ -42,7 +42,7 @@
 
   function syncThemeControl() {
     if (themeMeta) {
-      themeMeta.setAttribute("content", activeTheme() === "dark" ? "#0c0d0c" : "#f5f3ed");
+      themeMeta.setAttribute("content", activeTheme() === "dark" ? "#080a08" : "#f2f0e8");
     }
     if (!themeButton) return;
     const nextTheme = activeTheme() === "dark" ? "light" : "dark";
@@ -288,6 +288,27 @@
   const year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
 
+  /* ---------- Global scroll progress ---------- */
+
+  const scrollProgress = document.getElementById("scroll-progress");
+  let progressFrame = 0;
+
+  function paintScrollProgress() {
+    progressFrame = 0;
+    if (!scrollProgress) return;
+    const max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+    const value = Math.max(0, Math.min(1, window.scrollY / max));
+    scrollProgress.style.transform = `scaleX(${value.toFixed(4)})`;
+  }
+
+  function queueScrollProgress() {
+    if (!progressFrame) progressFrame = requestAnimationFrame(paintScrollProgress);
+  }
+
+  window.addEventListener("scroll", queueScrollProgress, { passive: true });
+  window.addEventListener("resize", queueScrollProgress);
+  paintScrollProgress();
+
   /* ---------- Project gallery controls (every motion mode) ---------- */
 
   const projectsSection = document.querySelector("#proyectos");
@@ -469,7 +490,7 @@
 
   function initImmersive(gsap, ScrollTrigger) {
     gsap.registerPlugin(ScrollTrigger);
-    root.classList.add("immersive", "b10");
+    root.classList.add("immersive", "b11");
 
     const cleanups = [];
     const mm = gsap.matchMedia();
@@ -518,6 +539,12 @@
         .fromTo(".hero-plane-mid",
           { z: -80, y: 0, opacity: 1 },
           { z: 90, y: -30, opacity: 0.2, ease: "none" }, 0)
+        .fromTo(".hero-typefield",
+          { z: -160, rotationX: 58, yPercent: 6, opacity: 0.55 },
+          { z: 40, rotationX: 16, yPercent: -14, opacity: 0.16, ease: "none" }, 0)
+        .fromTo(".module-a", { z: 120, rotationY: -18 }, { z: 180, rotationY: -28, ease: "none" }, 0)
+        .fromTo(".module-b", { z: -40, rotationY: 22 }, { z: 90, rotationY: 8, ease: "none" }, 0)
+        .fromTo(".module-c", { z: 40, rotationX: 60 }, { z: -60, rotationX: 28, ease: "none" }, 0)
         .fromTo(".hero-frame", { opacity: 1 }, { opacity: 0, ease: "none" }, 0)
         .fromTo(".scroll-cue", { opacity: 1, y: 0 }, { opacity: 0, y: 20, ease: "none" }, 0);
 
@@ -526,21 +553,21 @@
         yPercent: 90, opacity: 0, stagger: 0.08, duration: 0.8, ease: "power3.out",
         scrollTrigger: {
           trigger: "#sobre-title", start: "top 78%",
-          toggleActions: "play reverse play reverse"
+          toggleActions: "play none none reverse"
         }
       });
       gsap.from(wordsIn(".about-copy .lead"), {
         yPercent: 70, opacity: 0, stagger: 0.035, duration: 0.7, ease: "power2.out",
         scrollTrigger: {
           trigger: ".about-copy", start: "top 76%",
-          toggleActions: "play reverse play reverse"
+          toggleActions: "play none none reverse"
         }
       });
       gsap.from(".about-facts div", {
         y: 24, opacity: 0, stagger: 0.1, duration: 0.7, ease: "power2.out",
         scrollTrigger: {
           trigger: ".about-facts", start: "top 84%",
-          toggleActions: "play reverse play reverse"
+          toggleActions: "play none none reverse"
         }
       });
       gsap.fromTo(".about-copy",
@@ -571,14 +598,14 @@
         yPercent: 80, opacity: 0, stagger: 0.08, duration: 0.75, ease: "power3.out",
         scrollTrigger: {
           trigger: "#tecnologias", start: "top 72%",
-          toggleActions: "play reverse play reverse"
+          toggleActions: "play none none reverse"
         }
       });
       gsap.from(".tech-group", {
         y: 60, opacity: 0, stagger: 0.12, duration: 0.8, ease: "power2.out",
         scrollTrigger: {
           trigger: ".tech-stage", start: "top 80%",
-          toggleActions: "play reverse play reverse"
+          toggleActions: "play none none reverse"
         }
       });
       gsap.fromTo(".tech-ghost",
@@ -604,7 +631,7 @@
         z: -70, opacity: 0, stagger: 0.08, duration: 0.7, ease: "power2.out",
         scrollTrigger: {
           trigger: "#formacion", start: "top 70%",
-          toggleActions: "play reverse play reverse"
+          toggleActions: "play none none reverse"
         }
       });
       gsap.fromTo(".timeline-line", { scaleY: 0 }, {
@@ -631,14 +658,14 @@
         yPercent: 85, opacity: 0, stagger: 0.09, duration: 0.8, ease: "power3.out",
         scrollTrigger: {
           trigger: "#contacto", start: "top 74%",
-          toggleActions: "play reverse play reverse"
+          toggleActions: "play none none reverse"
         }
       });
       gsap.from(".contact-lead, .contact-actions > *", {
         y: 24, opacity: 0, stagger: 0.1, duration: 0.7, ease: "power2.out",
         scrollTrigger: {
           trigger: ".contact-grid", start: "top 80%",
-          toggleActions: "play reverse play reverse"
+          toggleActions: "play none none reverse"
         }
       });
       gsap.fromTo(".contact-grid",
@@ -702,7 +729,7 @@
               scrollTrigger: {
                 trigger: panel, containerAnimation: galleryTween,
                 start: "left 85%", end: "right 15%",
-                toggleActions: "play reverse play reverse"
+                toggleActions: "play none none reverse"
               }
             });
           });
@@ -739,7 +766,7 @@
               immediateRender: false,
               scrollTrigger: {
                 trigger: panel, start: "top 78%",
-                toggleActions: "play reverse play reverse"
+                toggleActions: "play none none reverse"
               }
             });
           });
@@ -779,7 +806,7 @@
       cleanups.forEach((fn) => fn());
       mm.revert();
       ctx.revert();
-      root.classList.remove("immersive", "b10");
+      root.classList.remove("immersive", "b11");
       document.querySelectorAll(".reveal").forEach((item) => item.classList.add("is-visible"));
       paintGallery(activeIndex);
     };
@@ -795,11 +822,11 @@
         destroyImmersive = initImmersive(window.gsap, window.ScrollTrigger);
       } catch (error) {
         console.error("No se pudo iniciar el sistema inmersivo; se activa el fallback.", error);
-        root.classList.remove("immersive", "b10");
+        root.classList.remove("immersive", "b11");
         initSimpleReveal();
       }
     } else {
-      root.classList.remove("immersive", "b10");
+      root.classList.remove("immersive", "b11");
       document.querySelectorAll(".reveal").forEach((item) => item.classList.add("is-visible"));
       initSimpleReveal();
     }

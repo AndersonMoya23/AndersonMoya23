@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Anderson Moya — Desarrollo de software</title>
-  <meta name="description" content="Portafolio de Anderson Moya. Estudiante de Desarrollo y Administración de Aplicaciones Informáticas. Proyectos con C#, .NET, JavaScript, SQL y Arduino.">
-  <meta name="theme-color" content="#0c0d0c">
+  <title>Anderson Moya — Creative Developer</title>
+  <meta name="description" content="Portafolio editorial de Anderson Moya. Desarrollo de software, experiencias digitales, C#, .NET, JavaScript, SQL y Arduino.">
+  <meta name="theme-color" content="#080a08">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Anderson Moya — Desarrollo de software">
-  <meta property="og:description" content="Proyectos, tecnologías y formación de Anderson Moya.">
+  <meta property="og:title" content="Anderson Moya — Creative Developer">
+  <meta property="og:description" content="Experiencia editorial, proyectos, tecnologías y formación de Anderson Moya.">
   <meta property="og:url" content="https://andersonmoya23.github.io/AndersonMoya23/">
   <meta name="twitter:card" content="summary">
   <link rel="canonical" href="https://andersonmoya23.github.io/AndersonMoya23/">
@@ -37,6 +37,7 @@
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
   <header class="site-header">
+    <div class="scroll-progress" aria-hidden="true"><i id="scroll-progress"></i></div>
     <nav class="nav wrap" aria-label="Navegación principal">
       <a class="brand" href="#inicio" aria-label="Anderson Moya, volver al inicio" data-magnetic>
         <span class="brand-mark" aria-hidden="true">AM</span>
@@ -67,16 +68,17 @@
       <div class="hero-cinematic" data-camera>
         <div class="hero-camera" data-camera-inner>
           <div class="hero-plane hero-plane-far" aria-hidden="true"></div>
+          <div class="hero-typefield" aria-hidden="true">DEVELOPER</div>
           <div class="hero-plane hero-plane-mid" aria-hidden="true">
-            <span>FRAME 001</span>
-            <span>PERSPECTIVE / ACTIVE</span>
+            <span>CREATIVE DEV</span>
+            <span>DIGITAL EXPERIENCE</span>
           </div>
 
           <div class="hero-copy" data-depth="0.08" data-depth-layer="copy">
-            <p class="kicker"><span class="kicker-line" aria-hidden="true"></span> Portafolio / 2026 — Desarrollo de software</p>
+            <p class="kicker"><span class="kicker-line" aria-hidden="true"></span> Portafolio / 2026 — Creative developer</p>
             <h1 id="hero-title" class="hero-title">
-              <span class="title-line">Anderson</span>
-              <span class="title-line"><em>Moya.</em></span>
+              <span class="title-line title-first">Anderson</span>
+              <span class="title-line title-second"><em>Moya.</em></span>
             </h1>
             <p class="hero-lead">Estudiante de Desarrollo y Administración de Aplicaciones Informáticas. Construyo aplicaciones con C#, .NET, JavaScript y SQL, y exploro la electrónica con Arduino.</p>
             <div class="hero-actions">
@@ -94,6 +96,8 @@
               <div class="artifact" id="artifact">
                 <div class="artifact-scroll" id="artifact-scroll">
                   <div class="artifact-spin">
+                    <div class="monolith-frame frame-a"></div>
+                    <div class="monolith-frame frame-b"></div>
                     <div class="cube cube-outer">
                       <i class="face face-front"></i><i class="face face-back"></i>
                       <i class="face face-right"></i><i class="face face-left"></i>
@@ -108,20 +112,27 @@
                     <div class="ring ring-b"></div>
                     <div class="plate plate-a"></div>
                     <div class="plate plate-b"></div>
+                    <div class="module module-a"><span>01</span><i></i></div>
+                    <div class="module module-b"><span>02</span><i></i></div>
+                    <div class="module module-c"><span>03</span><i></i></div>
                     <div class="node node-a"></div>
                     <div class="node node-b"></div>
                   </div>
                 </div>
               </div>
-              <p class="scene-label">Fig. 01 — Sistema en construcción</p>
+              <p class="scene-label">FIG. 01 — CREATIVE SYSTEM</p>
             </div>
           </div>
         </div>
       </div>
 
+      <div class="hero-topline" aria-hidden="true">
+        <span>SOFTWARE / WEB / SYSTEMS</span>
+        <span>SANTIAGO · DOMINICANA</span>
+      </div>
       <div class="hero-frame" aria-hidden="true">
         <span>ESC. 01</span>
-        <span>ANDERSON MOYA / PORTAFOLIO</span>
+        <span>ANDERSON MOYA / PORTFOLIO</span>
       </div>
       <div class="scroll-cue" aria-hidden="true"><span>Desliza</span><i></i></div>
     </section>
@@ -136,15 +147,17 @@
       <div class="about-stage" data-stage>
         <span class="about-thread" aria-hidden="true"></span>
         <span class="about-echo" aria-hidden="true">01</span>
-        <div class="section-head">
+        <div class="section-head about-masthead">
           <p class="section-index">01 / Sobre mí</p>
-          <h2 id="sobre-title" class="display" data-split>Aprendo <em>haciendo.</em></h2>
+          <h2 id="sobre-title" class="display display-wide" data-split>Aprendo <em>haciendo.</em></h2>
         </div>
         <div class="about-grid">
           <div class="about-copy" data-depth-layer="copy">
             <p class="lead" data-split>Soy estudiante de Desarrollo y Administración de Aplicaciones Informáticas en el Politécnico Industrial Don Bosco.</p>
-            <p>Estoy construyendo experiencia mediante proyectos prácticos: aplicaciones, bases de datos, sistemas web y pequeñas soluciones de electrónica. Me interesa entender cómo funciona una idea desde el primer archivo hasta su ejecución.</p>
-            <p>Este portafolio reúne lo que he desarrollado, lo que estoy aprendiendo y lo que todavía exploro con curiosidad. No hay atajos: cada proyecto es una oportunidad para mejorar.</p>
+            <div class="about-body">
+              <p>Estoy construyendo experiencia mediante proyectos prácticos: aplicaciones, bases de datos, sistemas web y pequeñas soluciones de electrónica. Me interesa entender cómo funciona una idea desde el primer archivo hasta su ejecución.</p>
+              <p>Este portafolio reúne lo que he desarrollado, lo que estoy aprendiendo y lo que todavía exploro con curiosidad. No hay atajos: cada proyecto es una oportunidad para mejorar.</p>
+            </div>
           </div>
           <aside class="about-facts" data-depth-layer="facts" aria-label="Datos destacados">
             <div><span>Formación</span><strong>Desarrollo y Administración de Aplicaciones Informáticas</strong></div>
@@ -157,7 +170,7 @@
 
     <section class="section section-alt scene-tech reveal" id="tecnologias" data-scene="tech" aria-labelledby="tec-title">
       <div class="wrap">
-        <span class="tech-ghost" aria-hidden="true">09</span>
+        <span class="tech-ghost" aria-hidden="true">STACK</span>
         <div class="section-head">
           <p class="section-index">02 / Tecnologías</p>
           <h2 id="tec-title" class="display" data-split>Herramientas <em>reales.</em></h2>
@@ -229,7 +242,7 @@
                   <div><h4>Solución</h4><p>Un sistema con sensor ultrasónico, pantalla LCD, LEDs y buzzer que comunica el estado de proximidad.</p></div>
                 </div>
               </div>
-              <div class="case-art art-circuit" data-art-tilt aria-hidden="true"><span class="art-label">ILUSTRACIÓN · SENSOR / LCD / OUTPUT</span><div class="chip">01</div><div class="trace trace-a"></div><div class="trace trace-b"></div></div>
+              <div class="case-art art-circuit" data-art-tilt aria-hidden="true"><div class="art-plane"></div><span class="art-label">ILUSTRACIÓN · SENSOR / LCD / OUTPUT</span><div class="chip">01</div><div class="trace trace-a"></div><div class="trace trace-b"></div></div>
             </div>
             <div class="case-foot"><span>Tecnologías: Arduino · C++ · Sensor ultrasónico · LCD</span><span>Estado: Desarrollado</span></div>
           </article>
@@ -245,7 +258,7 @@
                   <div><h4>Solución</h4><p>Una aplicación web apoyada en un servidor que reúne y presenta la información de monitoreo.</p></div>
                 </div>
               </div>
-              <div class="case-art art-monitor" data-art-tilt aria-hidden="true"><span class="art-label">ILUSTRACIÓN · WEB / SERVER</span><div class="monitor"><i></i><i></i><i></i><b></b></div></div>
+              <div class="case-art art-monitor" data-art-tilt aria-hidden="true"><div class="art-plane"></div><span class="art-label">ILUSTRACIÓN · WEB / SERVER</span><div class="monitor"><i></i><i></i><i></i><b></b></div></div>
             </div>
             <div class="case-foot"><span>Tecnologías: Aplicación web · Servidor · Monitoreo</span><span>Estado: Proyecto académico</span></div>
           </article>
@@ -261,7 +274,7 @@
                   <div><h4>Solución</h4><p>Una estación con controles físicos y una pantalla para gestionar los tiempos de estudio. En proceso.</p></div>
                 </div>
               </div>
-              <div class="case-art art-lcd" data-art-tilt aria-hidden="true"><span class="art-label">ILUSTRACIÓN · ARDUINO MEGA / LCD 1602 I2C</span><div class="lcd"><small>FOCUS MODE</small><strong>25:00</strong><small>READY</small></div></div>
+              <div class="case-art art-lcd" data-art-tilt aria-hidden="true"><div class="art-plane"></div><span class="art-label">ILUSTRACIÓN · ARDUINO MEGA / LCD 1602 I2C</span><div class="lcd"><small>FOCUS MODE</small><strong>25:00</strong><small>READY</small></div></div>
             </div>
             <div class="case-foot"><span>Tecnologías: Arduino Mega · LCD 1602 I2C · Electrónica</span><span>Estado: En desarrollo</span></div>
           </article>
@@ -277,7 +290,7 @@
                   <div><h4>Solución</h4><p>Una aplicación local que apoya la organización y revisión de archivos. En proceso.</p></div>
                 </div>
               </div>
-              <div class="case-art art-code" data-art-tilt aria-hidden="true"><span class="art-label">ILUSTRACIÓN · LOCAL / AUTOMATION</span><div class="code"><span>01  organize_files()</span><span>02  review_material()</span><strong>03  ready_to_publish</strong></div></div>
+              <div class="case-art art-code" data-art-tilt aria-hidden="true"><div class="art-plane"></div><span class="art-label">ILUSTRACIÓN · LOCAL / AUTOMATION</span><div class="code"><span>01  organize_files()</span><span>02  review_material()</span><strong>03  ready_to_publish</strong></div></div>
             </div>
             <div class="case-foot"><span>Tecnologías: Python · JavaScript · FastAPI · Automatización</span><span>Estado: En desarrollo</span></div>
           </article>
@@ -329,15 +342,20 @@
       <div class="wrap contact-grid" data-stage>
         <div data-depth-layer="headline">
           <p class="section-index section-index-light">05 / Contacto</p>
-          <h2 id="contact-title" class="display" data-split>Hablemos de <em>código.</em></h2>
+          <h2 id="contact-title" class="display display-wide" data-split>Hablemos de <em>código.</em></h2>
           <p class="contact-lead">Estoy abierto a conversar sobre proyectos, aprendizaje y colaboración. Puedes encontrarme en GitHub.</p>
         </div>
         <div class="contact-actions" data-depth-layer="actions">
-          <a class="btn btn-light" href="https://github.com/AndersonMoya23" target="_blank" rel="noreferrer" data-magnetic>Ir a GitHub <span aria-hidden="true">↗</span></a>
-          <button class="btn btn-ghost" id="copy-button" type="button" data-copy="https://github.com/AndersonMoya23" data-magnetic>Copiar enlace <span aria-hidden="true">⧉</span></button>
+          <a class="contact-link" href="https://github.com/AndersonMoya23" target="_blank" rel="noreferrer" data-magnetic>
+            <span>GitHub</span><span aria-hidden="true">↗</span>
+          </a>
+          <button class="contact-link" id="copy-button" type="button" data-copy="https://github.com/AndersonMoya23" data-magnetic>
+            <span>Copiar enlace</span><span aria-hidden="true">⧉</span>
+          </button>
           <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
         </div>
       </div>
+      <p class="contact-signoff" aria-hidden="true">FIN / SECUENCIA 05</p>
     </section>
   </main>
 
