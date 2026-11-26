@@ -16,13 +16,15 @@ Luego visita http://localhost:8000. Usar un servidor local permite probar tambi�
 
 - Identidad editorial oscura como experiencia principal, con tema claro opcional y persistente.
 - Tipografía protagonista: `Instrument Serif`, `DM Sans` y `DM Mono`, con fuentes del sistema como fallback.
-- Hero con escultura 3D construida en CSS 3D: sin WebGL y con fallback natural.
+- Hero cinematográfico con cámara 3D, planos en profundidad, escultura CSS 3D y movimiento de perspectiva ligado al scroll; sin WebGL ni Three.js.
 - Movimiento inmersivo con GSAP y ScrollTrigger servidos localmente; el parallax por cursor se reserva a puntero fino.
+- Sistema narrativo reversible: las escenas responden al scroll en ambas direcciones, sin secuestrar la rueda del ratón; solo el hero y la galería de proyectos usan pinning en desktop.
+- Tecnologías presentadas como planos espaciales con profundidad moderada, hover real en puntero fino y foco de teclado.
+- Proyectos presentados como casos de estudio con tarjetas en perspectiva 3D: problema, solución, tecnologías y estado real.
+- Timeline de formación con línea y nodo progresivos, y cierre de contacto con profundidad editorial.
 - `prefers-reduced-motion` desactiva el sistema inmersivo, también si se activa con la página abierta; si falta JavaScript o GSAP, el contenido permanece visible.
 - Secciones: Inicio, Sobre mí, Tecnologías, Proyectos, Formación y Contacto.
-- Proyectos presentados como casos de estudio: problema, solución, tecnologías y estado real.
 - Navegación con indicador de sección activa, menú móvil accesible y cierre por enlace, Escape o clic exterior.
-- Reveal progresivo al desplazarse, microinteracciones y estados claros de hover, focus y active.
 
 ## Publicación
 
@@ -39,7 +41,7 @@ La dirección esperada es https://andersonmoya23.github.io/AndersonMoya23/.
 
 - `index.html` — contenido, metadatos SEO/OG y secciones del portafolio.
 - `styles.css` — sistema visual, tema claro/oscuro, CSS 3D y diseño responsive.
-- `script.js` — tema persistente, menú, navegación activa, reveal, sistema inmersivo GSAP/ScrollTrigger, galería y controles, parallax 3D, copiar enlace y año del footer.
+- `script.js` — tema persistente, menú, navegación activa, reveal, cámara 3D narrativa GSAP/ScrollTrigger, galería y controles, parallax, copiar enlace y año del footer.
 - `vendor/` — copias locales de GSAP y ScrollTrigger 3.15.1.
 - `certificados/` — carpeta reservada para documentos públicos aprobados.
 - `DEPLOY.md` — guía de publicación y comprobación de privacidad.

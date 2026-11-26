@@ -64,51 +64,65 @@
 
   <main id="contenido">
     <section class="hero scene-hero wrap" id="inicio" data-scene="hero" aria-labelledby="hero-title">
-      <div class="hero-copy" data-depth="0.08">
-        <p class="kicker"><span class="kicker-line" aria-hidden="true"></span> Portafolio / 2026 — Desarrollo de software</p>
-        <h1 id="hero-title" class="hero-title">
-          <span class="title-line">Anderson</span>
-          <span class="title-line"><em>Moya.</em></span>
-        </h1>
-        <p class="hero-lead">Estudiante de Desarrollo y Administración de Aplicaciones Informáticas. Construyo aplicaciones con C#, .NET, JavaScript y SQL, y exploro la electrónica con Arduino.</p>
-        <div class="hero-actions">
-          <a class="btn btn-solid" href="#proyectos" data-magnetic>Ver proyectos <span aria-hidden="true">↗</span></a>
-          <a class="btn btn-line" href="https://github.com/AndersonMoya23" target="_blank" rel="noreferrer" data-magnetic>GitHub <span aria-hidden="true">↗</span></a>
-        </div>
-        <p class="hero-foot"><span>Santiago, República Dominicana</span><span class="hero-foot-sep" aria-hidden="true"></span><span>Disponible para colaborar</span></p>
-      </div>
+      <div class="hero-cinematic" data-camera>
+        <div class="hero-camera" data-camera-inner>
+          <div class="hero-plane hero-plane-far" aria-hidden="true"></div>
+          <div class="hero-plane hero-plane-mid" aria-hidden="true">
+            <span>FRAME 001</span>
+            <span>PERSPECTIVE / ACTIVE</span>
+          </div>
 
-      <div class="hero-visual" data-depth="0.14">
-        <div class="scene" id="scene" aria-hidden="true">
-          <div class="scene-floor"></div>
-          <div class="scene-axis scene-axis-y"></div>
-          <div class="scene-axis scene-axis-z"></div>
-          <div class="artifact" id="artifact">
-            <div class="artifact-scroll" id="artifact-scroll">
-              <div class="artifact-spin">
-                <div class="cube cube-outer">
-                  <i class="face face-front"></i><i class="face face-back"></i>
-                  <i class="face face-right"></i><i class="face face-left"></i>
-                  <i class="face face-top"></i><i class="face face-bottom"></i>
+          <div class="hero-copy" data-depth="0.08" data-depth-layer="copy">
+            <p class="kicker"><span class="kicker-line" aria-hidden="true"></span> Portafolio / 2026 — Desarrollo de software</p>
+            <h1 id="hero-title" class="hero-title">
+              <span class="title-line">Anderson</span>
+              <span class="title-line"><em>Moya.</em></span>
+            </h1>
+            <p class="hero-lead">Estudiante de Desarrollo y Administración de Aplicaciones Informáticas. Construyo aplicaciones con C#, .NET, JavaScript y SQL, y exploro la electrónica con Arduino.</p>
+            <div class="hero-actions">
+              <a class="btn btn-solid" href="#proyectos" data-magnetic>Ver proyectos <span aria-hidden="true">↗</span></a>
+              <a class="btn btn-line" href="https://github.com/AndersonMoya23" target="_blank" rel="noreferrer" data-magnetic>GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+            <p class="hero-foot"><span>Santiago, República Dominicana</span><span class="hero-foot-sep" aria-hidden="true"></span><span>Disponible para colaborar</span></p>
+          </div>
+
+          <div class="hero-visual" data-depth="0.14" data-depth-layer="visual">
+            <div class="scene" id="scene" aria-hidden="true">
+              <div class="scene-floor"></div>
+              <div class="scene-axis scene-axis-y"></div>
+              <div class="scene-axis scene-axis-z"></div>
+              <div class="artifact" id="artifact">
+                <div class="artifact-scroll" id="artifact-scroll">
+                  <div class="artifact-spin">
+                    <div class="cube cube-outer">
+                      <i class="face face-front"></i><i class="face face-back"></i>
+                      <i class="face face-right"></i><i class="face face-left"></i>
+                      <i class="face face-top"></i><i class="face face-bottom"></i>
+                    </div>
+                    <div class="cube cube-inner">
+                      <i class="face face-front"></i><i class="face face-back"></i>
+                      <i class="face face-right"></i><i class="face face-left"></i>
+                      <i class="face face-top"></i><i class="face face-bottom"></i>
+                    </div>
+                    <div class="ring ring-a"></div>
+                    <div class="ring ring-b"></div>
+                    <div class="plate plate-a"></div>
+                    <div class="plate plate-b"></div>
+                    <div class="node node-a"></div>
+                    <div class="node node-b"></div>
+                  </div>
                 </div>
-                <div class="cube cube-inner">
-                  <i class="face face-front"></i><i class="face face-back"></i>
-                  <i class="face face-right"></i><i class="face face-left"></i>
-                  <i class="face face-top"></i><i class="face face-bottom"></i>
-                </div>
-                <div class="ring ring-a"></div>
-                <div class="ring ring-b"></div>
-                <div class="plate plate-a"></div>
-                <div class="plate plate-b"></div>
-                <div class="node node-a"></div>
-                <div class="node node-b"></div>
               </div>
+              <p class="scene-label">Fig. 01 — Sistema en construcción</p>
             </div>
           </div>
-          <p class="scene-label">Fig. 01 — Sistema en construcción</p>
         </div>
       </div>
 
+      <div class="hero-frame" aria-hidden="true">
+        <span>ESC. 01</span>
+        <span>ANDERSON MOYA / PORTAFOLIO</span>
+      </div>
       <div class="scroll-cue" aria-hidden="true"><span>Desliza</span><i></i></div>
     </section>
 
@@ -119,22 +133,25 @@
     </div>
 
     <section class="section wrap scene-about reveal" id="sobre-mi" data-scene="about" aria-labelledby="sobre-title">
-      <span class="about-thread" aria-hidden="true"></span>
-      <div class="section-head">
-        <p class="section-index">01 / Sobre mí</p>
-        <h2 id="sobre-title" class="display" data-split>Aprendo <em>haciendo.</em></h2>
-      </div>
-      <div class="about-grid">
-        <div class="about-copy">
-          <p class="lead" data-split>Soy estudiante de Desarrollo y Administración de Aplicaciones Informáticas en el Politécnico Industrial Don Bosco.</p>
-          <p>Estoy construyendo experiencia mediante proyectos prácticos: aplicaciones, bases de datos, sistemas web y pequeñas soluciones de electrónica. Me interesa entender cómo funciona una idea desde el primer archivo hasta su ejecución.</p>
-          <p>Este portafolio reúne lo que he desarrollado, lo que estoy aprendiendo y lo que todavía exploro con curiosidad. No hay atajos: cada proyecto es una oportunidad para mejorar.</p>
+      <div class="about-stage" data-stage>
+        <span class="about-thread" aria-hidden="true"></span>
+        <span class="about-echo" aria-hidden="true">01</span>
+        <div class="section-head">
+          <p class="section-index">01 / Sobre mí</p>
+          <h2 id="sobre-title" class="display" data-split>Aprendo <em>haciendo.</em></h2>
         </div>
-        <aside class="about-facts" aria-label="Datos destacados">
-          <div><span>Formación</span><strong>Desarrollo y Administración de Aplicaciones Informáticas</strong></div>
-          <div><span>Enfoque</span><strong>Aplicaciones y software</strong></div>
-          <div><span>Intereses</span><strong>Web · Backend · Datos · Electrónica</strong></div>
-        </aside>
+        <div class="about-grid">
+          <div class="about-copy" data-depth-layer="copy">
+            <p class="lead" data-split>Soy estudiante de Desarrollo y Administración de Aplicaciones Informáticas en el Politécnico Industrial Don Bosco.</p>
+            <p>Estoy construyendo experiencia mediante proyectos prácticos: aplicaciones, bases de datos, sistemas web y pequeñas soluciones de electrónica. Me interesa entender cómo funciona una idea desde el primer archivo hasta su ejecución.</p>
+            <p>Este portafolio reúne lo que he desarrollado, lo que estoy aprendiendo y lo que todavía exploro con curiosidad. No hay atajos: cada proyecto es una oportunidad para mejorar.</p>
+          </div>
+          <aside class="about-facts" data-depth-layer="facts" aria-label="Datos destacados">
+            <div><span>Formación</span><strong>Desarrollo y Administración de Aplicaciones Informáticas</strong></div>
+            <div><span>Enfoque</span><strong>Aplicaciones y software</strong></div>
+            <div><span>Intereses</span><strong>Web · Backend · Datos · Electrónica</strong></div>
+          </aside>
+        </div>
       </div>
     </section>
 
@@ -146,31 +163,37 @@
           <h2 id="tec-title" class="display" data-split>Herramientas <em>reales.</em></h2>
           <p class="section-note">Una relación honesta: lo que uso con frecuencia, lo que aplico en proyectos y lo que estoy aprendiendo.</p>
         </div>
-        <div class="tech-grid tech-stage">
-          <article class="tech-group" data-tech-layer="1">
-            <h3><span class="tech-num">A</span> Uso frecuente</h3>
-            <ul>
-              <li><span>C#</span><small>Lenguaje principal en proyectos académicos</small></li>
-              <li><span>.NET</span><small>Aplicaciones y lógica de negocio</small></li>
-              <li><span>JavaScript</span><small>Interfaz y comportamiento web</small></li>
-              <li><span>SQL</span><small>Consultas y modelado relacional</small></li>
-            </ul>
+        <div class="tech-grid tech-stage" data-stage>
+          <article class="tech-group" data-tech-layer="1" data-tilt-card tabindex="0" aria-labelledby="tech-frequent">
+            <div class="tech-card-inner">
+              <h3 id="tech-frequent"><span class="tech-num">A</span> Uso frecuente</h3>
+              <ul>
+                <li><span>C#</span><small>Lenguaje principal en proyectos académicos</small></li>
+                <li><span>.NET</span><small>Aplicaciones y lógica de negocio</small></li>
+                <li><span>JavaScript</span><small>Interfaz y comportamiento web</small></li>
+                <li><span>SQL</span><small>Consultas y modelado relacional</small></li>
+              </ul>
+            </div>
           </article>
-          <article class="tech-group" data-tech-layer="2">
-            <h3><span class="tech-num">B</span> Base y herramientas</h3>
-            <ul>
-              <li><span>HTML</span><small>Estructura y semántica</small></li>
-              <li><span>CSS</span><small>Diseño responsive y sistemas visuales</small></li>
-              <li><span>Git y GitHub</span><small>Control de versiones y publicación</small></li>
-              <li><span>Linux</span><small>Entorno de trabajo y aprendizaje</small></li>
-            </ul>
+          <article class="tech-group" data-tech-layer="2" data-tilt-card tabindex="0" aria-labelledby="tech-tools">
+            <div class="tech-card-inner">
+              <h3 id="tech-tools"><span class="tech-num">B</span> Base y herramientas</h3>
+              <ul>
+                <li><span>HTML</span><small>Estructura y semántica</small></li>
+                <li><span>CSS</span><small>Diseño responsive y sistemas visuales</small></li>
+                <li><span>Git y GitHub</span><small>Control de versiones y publicación</small></li>
+                <li><span>Linux</span><small>Entorno de trabajo y aprendizaje</small></li>
+              </ul>
+            </div>
           </article>
-          <article class="tech-group" data-tech-layer="3">
-            <h3><span class="tech-num">C</span> Proyectos y aprendizaje</h3>
-            <ul>
-              <li><span>Arduino</span><small>Electrónica y sistemas embebidos</small></li>
-              <li><span>Python y FastAPI</span><small>Herramientas locales y automatización</small></li>
-            </ul>
+          <article class="tech-group" data-tech-layer="3" data-tilt-card tabindex="0" aria-labelledby="tech-learning">
+            <div class="tech-card-inner">
+              <h3 id="tech-learning"><span class="tech-num">C</span> Proyectos y aprendizaje</h3>
+              <ul>
+                <li><span>Arduino</span><small>Electrónica y sistemas embebidos</small></li>
+                <li><span>Python y FastAPI</span><small>Herramientas locales y automatización</small></li>
+              </ul>
+            </div>
           </article>
         </div>
       </div>
@@ -192,9 +215,10 @@
           <button class="gallery-btn" id="gallery-prev" type="button" aria-label="Proyecto anterior" disabled>←</button>
           <span class="gallery-count" id="gallery-count" aria-live="polite">01 / 05</span>
           <button class="gallery-btn" id="gallery-next" type="button" aria-label="Siguiente proyecto">→</button>
+          <span class="projects-progress" aria-hidden="true"><i id="projects-progress-bar"></i></span>
         </div>
         <div class="projects-track" id="projects-track" role="region" aria-label="Galería de casos de estudio" tabindex="0">
-          <article class="case project-panel reveal" data-project="01">
+          <article class="case project-panel reveal" data-project-card data-project="01">
             <div class="case-head"><span>01</span><span>Electrónica · Proyecto desarrollado</span></div>
             <div class="case-body">
               <div class="case-main">
@@ -205,12 +229,12 @@
                   <div><h4>Solución</h4><p>Un sistema con sensor ultrasónico, pantalla LCD, LEDs y buzzer que comunica el estado de proximidad.</p></div>
                 </div>
               </div>
-              <div class="case-art art-circuit" aria-hidden="true"><span class="art-label">ILUSTRACIÓN · SENSOR / LCD / OUTPUT</span><div class="chip">01</div><div class="trace trace-a"></div><div class="trace trace-b"></div></div>
+              <div class="case-art art-circuit" data-art-tilt aria-hidden="true"><span class="art-label">ILUSTRACIÓN · SENSOR / LCD / OUTPUT</span><div class="chip">01</div><div class="trace trace-a"></div><div class="trace trace-b"></div></div>
             </div>
             <div class="case-foot"><span>Tecnologías: Arduino · C++ · Sensor ultrasónico · LCD</span><span>Estado: Desarrollado</span></div>
           </article>
 
-          <article class="case project-panel reveal" data-project="02">
+          <article class="case project-panel reveal" data-project-card data-project="02">
             <div class="case-head"><span>02</span><span>Desarrollo web · Proyecto académico</span></div>
             <div class="case-body">
               <div class="case-main">
@@ -221,12 +245,12 @@
                   <div><h4>Solución</h4><p>Una aplicación web apoyada en un servidor que reúne y presenta la información de monitoreo.</p></div>
                 </div>
               </div>
-              <div class="case-art art-monitor" aria-hidden="true"><span class="art-label">ILUSTRACIÓN · WEB / SERVER</span><div class="monitor"><i></i><i></i><i></i><b></b></div></div>
+              <div class="case-art art-monitor" data-art-tilt aria-hidden="true"><span class="art-label">ILUSTRACIÓN · WEB / SERVER</span><div class="monitor"><i></i><i></i><i></i><b></b></div></div>
             </div>
             <div class="case-foot"><span>Tecnologías: Aplicación web · Servidor · Monitoreo</span><span>Estado: Proyecto académico</span></div>
           </article>
 
-          <article class="case project-panel reveal" data-project="03">
+          <article class="case project-panel reveal" data-project-card data-project="03">
             <div class="case-head"><span>03</span><span>Electrónica · En desarrollo</span></div>
             <div class="case-body">
               <div class="case-main">
@@ -237,12 +261,12 @@
                   <div><h4>Solución</h4><p>Una estación con controles físicos y una pantalla para gestionar los tiempos de estudio. En proceso.</p></div>
                 </div>
               </div>
-              <div class="case-art art-lcd" aria-hidden="true"><span class="art-label">ILUSTRACIÓN · ARDUINO MEGA / LCD 1602 I2C</span><div class="lcd"><small>FOCUS MODE</small><strong>25:00</strong><small>READY</small></div></div>
+              <div class="case-art art-lcd" data-art-tilt aria-hidden="true"><span class="art-label">ILUSTRACIÓN · ARDUINO MEGA / LCD 1602 I2C</span><div class="lcd"><small>FOCUS MODE</small><strong>25:00</strong><small>READY</small></div></div>
             </div>
             <div class="case-foot"><span>Tecnologías: Arduino Mega · LCD 1602 I2C · Electrónica</span><span>Estado: En desarrollo</span></div>
           </article>
 
-          <article class="case project-panel reveal" data-project="04">
+          <article class="case project-panel reveal" data-project-card data-project="04">
             <div class="case-head"><span>04</span><span>Software · En desarrollo</span></div>
             <div class="case-body">
               <div class="case-main">
@@ -253,12 +277,12 @@
                   <div><h4>Solución</h4><p>Una aplicación local que apoya la organización y revisión de archivos. En proceso.</p></div>
                 </div>
               </div>
-              <div class="case-art art-code" aria-hidden="true"><span class="art-label">ILUSTRACIÓN · LOCAL / AUTOMATION</span><div class="code"><span>01  organize_files()</span><span>02  review_material()</span><strong>03  ready_to_publish</strong></div></div>
+              <div class="case-art art-code" data-art-tilt aria-hidden="true"><span class="art-label">ILUSTRACIÓN · LOCAL / AUTOMATION</span><div class="code"><span>01  organize_files()</span><span>02  review_material()</span><strong>03  ready_to_publish</strong></div></div>
             </div>
             <div class="case-foot"><span>Tecnologías: Python · JavaScript · FastAPI · Automatización</span><span>Estado: En desarrollo</span></div>
           </article>
 
-          <article class="case case-extra project-panel reveal" data-project="05">
+          <article class="case case-extra project-panel reveal" data-project-card data-project="05">
             <div><span class="tech-num">05</span><h3>Ejercicios de lógica</h3><p>Práctica semanal de la comunidad MoureDev.</p></div>
             <div class="case-extra-links">
               <a href="https://github.com/AndersonMoya23/roadmap-retos-programacion" target="_blank" rel="noreferrer">roadmap-retos-programacion <span aria-hidden="true">↗</span></a>
@@ -270,8 +294,9 @@
     </section>
 
     <section class="section section-alt scene-formacion reveal" id="formacion" data-scene="formacion" aria-labelledby="form-title">
-      <div class="wrap">
+      <div class="wrap" data-stage>
         <span class="timeline-line" aria-hidden="true"></span>
+        <span class="timeline-node" aria-hidden="true"></span>
         <div class="section-head">
           <p class="section-index">04 / Formación</p>
           <h2 id="form-title" class="display" data-split>Base y <em>continuidad.</em></h2>
@@ -301,13 +326,13 @@
 
     <section class="section contact scene-contact reveal" id="contacto" data-scene="contacto" aria-labelledby="contact-title">
       <span class="contact-echo" aria-hidden="true">AM</span>
-      <div class="wrap contact-grid">
-        <div>
+      <div class="wrap contact-grid" data-stage>
+        <div data-depth-layer="headline">
           <p class="section-index section-index-light">05 / Contacto</p>
           <h2 id="contact-title" class="display" data-split>Hablemos de <em>código.</em></h2>
           <p class="contact-lead">Estoy abierto a conversar sobre proyectos, aprendizaje y colaboración. Puedes encontrarme en GitHub.</p>
         </div>
-        <div class="contact-actions">
+        <div class="contact-actions" data-depth-layer="actions">
           <a class="btn btn-light" href="https://github.com/AndersonMoya23" target="_blank" rel="noreferrer" data-magnetic>Ir a GitHub <span aria-hidden="true">↗</span></a>
           <button class="btn btn-ghost" id="copy-button" type="button" data-copy="https://github.com/AndersonMoya23" data-magnetic>Copiar enlace <span aria-hidden="true">⧉</span></button>
           <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
