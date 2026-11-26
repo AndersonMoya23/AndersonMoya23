@@ -5,6 +5,14 @@
   const storageKey = "portfolio-theme";
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
+
+  window.addEventListener("error", (event) => {
+    if (event.filename && event.filename.indexOf("script.js") === -1) return;
+    root.classList.remove("js");
+    document.querySelectorAll(".reveal").forEach((item) => item.classList.add("is-visible"));
+    console.error("Portafolio: error de ejecución; se activa el contenido visible.", event.error || event.message);
+  });
 
   /* ---------- Theme ---------- */
 
@@ -33,6 +41,9 @@
   if (savedTheme === "dark" || savedTheme === "light") root.dataset.theme = savedTheme;
 
   function syncThemeControl() {
+    if (themeMeta) {
+      themeMeta.setAttribute("content", activeTheme() === "dark" ? "#0c0d0c" : "#f5f3ed");
+    }
     if (!themeButton) return;
     const nextTheme = activeTheme() === "dark" ? "light" : "dark";
     themeButton.setAttribute(
@@ -259,6 +270,82 @@
   const year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
 
+  /* ---------- Project gallery controls (every motion mode) ---------- */
+
+  const projectsSection = document.querySelector("#proyectos");
+  const projectsPin = document.querySelector("#projects-pin");
+  const track = document.querySelector("#projects-track");
+  const panels = track ? Array.from(track.querySelectorAll(".project-panel")) : [];
+  const prevButton = document.getElementById("gallery-prev");
+  const nextButton = document.getElementById("gallery-next");
+  const galleryCount = document.getElementById("gallery-count");
+  let galleryTween = null;
+  let activeIndex = 0;
+
+  function paintGallery(index) {
+    if (!panels.length || !galleryCount) return;
+    activeIndex = Math.max(0, Math.min(panels.length - 1, index));
+    galleryCount.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(panels.length).padStart(2, "0")}`;
+    if (prevButton) prevButton.disabled = activeIndex === 0;
+    if (nextButton) nextButton.disabled = activeIndex === panels.length - 1;
+  }
+
+  function goToPanel(index) {
+    if (!panels.length) return;
+    const target = Math.max(0, Math.min(panels.length - 1, index));
+    const st = galleryTween && galleryTween.scrollTrigger;
+
+    if (st && projectsSection && projectsSection.classList.contains("is-horizontal")) {
+      const progress = panels.length > 1 ? target / (panels.length - 1) : 0;
+      window.scrollTo({
+        top: st.start + (st.end - st.start) * progress,
+        behavior: reducedMotion.matches ? "auto" : "smooth"
+      });
+      return;
+    }
+
+    paintGallery(target);
+    panels[target].scrollIntoView({
+      behavior: reducedMotion.matches ? "auto" : "smooth",
+      block: "start"
+    });
+  }
+
+  function onPrev() { goToPanel(activeIndex - 1); }
+  function onNext() { goToPanel(activeIndex + 1); }
+  function onTrackKey(event) {
+    if (event.key === "ArrowRight") { event.preventDefault(); goToPanel(activeIndex + 1); }
+    if (event.key === "ArrowLeft") { event.preventDefault(); goToPanel(activeIndex - 1); }
+  }
+
+  if (prevButton) prevButton.addEventListener("click", onPrev);
+  if (nextButton) nextButton.addEventListener("click", onNext);
+  if (track) track.addEventListener("keydown", onTrackKey);
+  paintGallery(0);
+
+  if ("IntersectionObserver" in window && projectsSection) {
+    const galleryObserver = new IntersectionObserver(
+      () => {
+        if (projectsSection.classList.contains("is-horizontal")) return;
+        const center = window.innerHeight / 2;
+        let closestIndex = -1;
+        let closestDistance = Infinity;
+        panels.forEach((panel, index) => {
+          const rect = panel.getBoundingClientRect();
+          if (rect.bottom <= 0 || rect.top >= window.innerHeight) return;
+          const distance = Math.abs((rect.top + rect.bottom) / 2 - center);
+          if (distance < closestDistance) {
+            closestDistance = distance;
+            closestIndex = index;
+          }
+        });
+        if (closestIndex >= 0) paintGallery(closestIndex);
+      },
+      { rootMargin: "-42% 0px -42% 0px", threshold: 0 }
+    );
+    panels.forEach((panel) => galleryObserver.observe(panel));
+  }
+
   /* ---------- Reveal fallback (no GSAP or reduced motion) ---------- */
 
   function initSimpleReveal() {
@@ -354,7 +441,7 @@
         }, 0)
         .to(".scene-floor", { yPercent: 16, opacity: 0.18, ease: "none" }, 0)
         .to(".scene", { perspective: 720, ease: "none" }, 0)
-        .to(".scroll-cue", { opacity: 0, y: 20, ease: "none" }, 0);
+        .to(".scroll-cue", { opacity: 0, y: 20, ease: "none", overwrite: "auto" }, 0);
 
       /* About scene */
       gsap.from(wordsIn("#sobre-title"), {
@@ -412,64 +499,9 @@
         scrollTrigger: { trigger: "#contacto", start: "top bottom", end: "bottom top", scrub: true }
       });
 
-      /* Continuity between scenes */
-      gsap.utils.toArray("[data-depth]").forEach((element) => {
-        if (element.closest("#inicio")) return;
-        const depth = parseFloat(element.getAttribute("data-depth")) || 0.08;
-        gsap.to(element, {
-          yPercent: -depth * 100, ease: "none",
-          scrollTrigger: {
-            trigger: element.closest("section") || element,
-            start: "top bottom", end: "bottom top", scrub: true
-          }
-        });
-      });
     });
 
     /* Project gallery: horizontal on desktop, natural vertical on smaller screens */
-    const projectsSection = document.querySelector("#proyectos");
-    const projectsPin = document.querySelector("#projects-pin");
-    const track = document.querySelector("#projects-track");
-    const panels = track ? Array.from(track.querySelectorAll(".project-panel")) : [];
-    const prevButton = document.getElementById("gallery-prev");
-    const nextButton = document.getElementById("gallery-next");
-    const galleryCount = document.getElementById("gallery-count");
-    let galleryTween = null;
-    let activeIndex = 0;
-
-    function updateGallery(progress) {
-      if (!panels.length || !galleryCount) return;
-      activeIndex = Math.min(panels.length - 1, Math.round(progress * (panels.length - 1)));
-      galleryCount.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(panels.length).padStart(2, "0")}`;
-      if (prevButton) prevButton.disabled = activeIndex === 0;
-      if (nextButton) nextButton.disabled = activeIndex === panels.length - 1;
-    }
-
-    function goToPanel(index) {
-      if (!galleryTween || !galleryTween.scrollTrigger) return;
-      const target = Math.max(0, Math.min(panels.length - 1, index));
-      const st = galleryTween.scrollTrigger;
-      const progress = panels.length > 1 ? target / (panels.length - 1) : 0;
-      window.scrollTo({ top: st.start + (st.end - st.start) * progress, behavior: "smooth" });
-    }
-
-    function onPrev() { goToPanel(activeIndex - 1); }
-    function onNext() { goToPanel(activeIndex + 1); }
-    function onTrackKey(event) {
-      if (!galleryTween) return;
-      if (event.key === "ArrowRight") { event.preventDefault(); goToPanel(activeIndex + 1); }
-      if (event.key === "ArrowLeft") { event.preventDefault(); goToPanel(activeIndex - 1); }
-    }
-
-    if (prevButton) prevButton.addEventListener("click", onPrev);
-    if (nextButton) nextButton.addEventListener("click", onNext);
-    if (track) track.addEventListener("keydown", onTrackKey);
-    cleanups.push(() => {
-      if (prevButton) prevButton.removeEventListener("click", onPrev);
-      if (nextButton) nextButton.removeEventListener("click", onNext);
-      if (track) track.removeEventListener("keydown", onTrackKey);
-    });
-
     if (projectsSection && projectsPin && track && panels.length) {
       mm.add("(min-width: 1025px)", () => {
         projectsSection.classList.add("is-horizontal");
@@ -482,21 +514,29 @@
             trigger: projectsPin, start: "top top+=96",
             end: () => `+=${distance() + window.innerHeight * 0.35}`,
             scrub: 1, pin: true, anticipatePin: 1, invalidateOnRefresh: true,
-            onUpdate: (self) => updateGallery(self.progress)
+            onUpdate: (self) => {
+              paintGallery(Math.round(self.progress * (panels.length - 1)));
+            }
           }
         });
 
         panels.forEach((panel) => {
-          gsap.from(panel.querySelectorAll(".case-head, .case-main h3, .case-lead, .case-cols > div, .case-foot"), {
+          const targets = panel.querySelectorAll(".case-head, .case-main h3, .case-lead, .case-cols > div, .case-foot");
+          if (!targets.length) return;
+          gsap.from(targets, {
             y: 26, opacity: 0, stagger: 0.06, duration: 0.6, ease: "power2.out",
+            immediateRender: false,
             scrollTrigger: {
-              trigger: panel, containerAnimation: galleryTween,
-              start: "left 85%", toggleActions: "play none none reverse"
+              trigger: panel,
+              containerAnimation: galleryTween,
+              start: "left 85%",
+              end: "right 15%",
+              toggleActions: "play none none none"
             }
           });
         });
 
-        updateGallery(0);
+        paintGallery(0);
         return () => {
           galleryTween = null;
           projectsSection.classList.remove("is-horizontal");
@@ -508,9 +548,16 @@
         galleryTween = null;
         projectsSection.classList.remove("is-horizontal");
         gsap.set(track, { clearProps: "transform" });
-        gsap.from(panels, {
-          y: 50, opacity: 0, stagger: 0.12, duration: 0.7, ease: "power2.out",
-          scrollTrigger: { trigger: projectsPin, start: "top 78%" }
+        panels.forEach((panel) => {
+          const targets = panel.querySelectorAll(
+            ".case-head, .case-main h3, .case-lead, .case-cols > div, .case-foot, .case-extra > div:first-child, .case-extra-links"
+          );
+          if (!targets.length) return;
+          gsap.from(targets, {
+            y: 50, opacity: 0, stagger: 0.08, duration: 0.7, ease: "power2.out",
+            immediateRender: false,
+            scrollTrigger: { trigger: panel, start: "top 78%", toggleActions: "play none none none" }
+          });
         });
         return () => {};
       });
@@ -546,24 +593,47 @@
       mm.revert();
       ctx.revert();
       root.classList.remove("immersive");
+      document.querySelectorAll(".reveal").forEach((item) => item.classList.add("is-visible"));
     };
   }
 
   /* ---------- Boot animation system ---------- */
 
   let destroyImmersive = () => {};
-  if (window.gsap && window.ScrollTrigger && !reducedMotion.matches) {
-    try {
-      destroyImmersive = initImmersive(window.gsap, window.ScrollTrigger);
-    } catch (_) {
+
+  function bootImmersive() {
+    if (window.gsap && window.ScrollTrigger && !reducedMotion.matches) {
+      try {
+        destroyImmersive = initImmersive(window.gsap, window.ScrollTrigger);
+      } catch (error) {
+        console.error("No se pudo iniciar el sistema inmersivo; se activa el fallback.", error);
+        root.classList.remove("immersive");
+        initSimpleReveal();
+      }
+    } else {
       root.classList.remove("immersive");
+      document.querySelectorAll(".reveal").forEach((item) => item.classList.add("is-visible"));
       initSimpleReveal();
     }
-  } else {
-    initSimpleReveal();
   }
 
-  window.addEventListener("pagehide", () => destroyImmersive(), { once: true });
+  bootImmersive();
+  window.__portfolioBooted = true;
+  if (window.__portfolioBootTimer) {
+    window.clearTimeout(window.__portfolioBootTimer);
+    window.__portfolioBootTimer = 0;
+  }
+
+  watchMedia(reducedMotion, () => {
+    destroyImmersive();
+    destroyImmersive = () => {};
+    bootImmersive();
+    if (window.ScrollTrigger) window.ScrollTrigger.refresh();
+  });
+
+  window.addEventListener("pagehide", (event) => {
+    if (!event.persisted) destroyImmersive();
+  });
 
   /* ---------- mediaQuery helper ---------- */
 

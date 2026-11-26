@@ -16,10 +16,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script>document.documentElement.classList.add('js');</script>
+  <script>
+    (function () {
+      var root = document.documentElement;
+      try {
+        var saved = localStorage.getItem('portfolio-theme');
+        if (saved === 'dark' || saved === 'light') root.dataset.theme = saved;
+      } catch (_) {}
+      root.classList.add('js');
+      window.__portfolioBootTimer = window.setTimeout(function () {
+        if (!window.__portfolioBooted) root.classList.remove('js');
+      }, 4000);
+    })();
+  </script>
   <script src="vendor/gsap.min.js" defer></script>
   <script src="vendor/ScrollTrigger.min.js" defer></script>
-  <script src="script.js" defer></script>
+  <script src="script.js" defer onerror="document.documentElement.classList.remove('js')"></script>
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
