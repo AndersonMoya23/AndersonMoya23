@@ -14,8 +14,9 @@ Portafolio en reconstrucción. Se eliminó el diseño anterior, sus animaciones,
 ### Perfil
 
 - Formación técnica: **Desarrollo y Administración de Aplicaciones Informáticas**, Politécnico Industrial Don Bosco.
-- Intereses: desarrollo web, backend, bases de datos, C#, .NET, JavaScript, SQL y Arduino.
+- Intereses: desarrollo web, backend, bases de datos, C#, .NET, JavaScript, SQL, Arduino y tecnología.
 - Formación complementaria: TalentoDigital.do; cursos de ciberseguridad, nube e inteligencia artificial.
+- Enfoque actual: fortalecer el desarrollo web y backend mediante proyectos prácticos.
 - Ubicación: Santiago, República Dominicana.
 - Enlace público: https://github.com/AndersonMoya23
 
@@ -26,14 +27,18 @@ Portafolio en reconstrucción. Se eliminó el diseño anterior, sus animaciones,
 - Herramientas: Git, GitHub, Visual Studio, VS Code, Linux, Postman.
 - Electrónica: Arduino, sensores, comunicación serial.
 
+> Estas tecnologías corresponden a proyectos académicos y de aprendizaje. Sigo ampliando su dominio con práctica constante.
+
 ### Proyectos
 
-- **OfficeAlert** — alerta con Arduino, sensor ultrasónico, pantalla LCD, LEDs y buzzer.
-- **Monitoreo ambiental para UCI** — aplicación web y servidor, proyecto académico.
+- **OfficeAlert** — sistema de alerta con Arduino, sensor ultrasónico, pantalla LCD, LEDs y buzzer.
+- **Sistema de monitoreo ambiental para UCI** — proyecto académico con aplicación web y servidor para supervisar condiciones ambientales.
 - **StudyHub** — estación de estudio con Arduino Mega y LCD 1602 I2C (en desarrollo).
 - **ViceCity Files AI** — herramienta local para organizar y revisar material digital (en desarrollo).
 - **instante** — https://github.com/AndersonMoya23/instante
-- Retos de programación: https://github.com/AndersonMoya23/roadmap-retos-programacion y https://github.com/AndersonMoya23/retos-programacion-2023
+- Retos de programación: [roadmap-retos-programacion](https://github.com/AndersonMoya23/roadmap-retos-programacion) y [retos-programacion-2023](https://github.com/AndersonMoya23/retos-programacion-2023).
+
+Los proyectos sin enlace son trabajos locales o académicos; no se ha publicado su código todavía.
 
 ### Certificaciones verificadas
 
@@ -48,6 +53,8 @@ Los documentos originales y los datos personales de los certificados no se publi
 ## Publicación
 
 La configuración de GitHub Pages no se modificó: fuente `main`, carpeta `/docs` y URL https://andersonmoya23.github.io/AndersonMoya23/.
+
+La dirección de correo y los datos de contacto se publicarán únicamente cuando así lo autorice. Mientras tanto, puedes conectar desde [GitHub](https://github.com/AndersonMoya23).
 
 Para previsualizar en local, sirve `docs/` con:
 
